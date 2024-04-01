@@ -25,7 +25,7 @@ export default {
           '15%': { transform: 'translateY(-25px)' },
           '65%': { transform: 'translateY(-15px)' },
           '85%': { transform: 'translateY(-5px)' },
-          '100%': { transform: 'translateY(45px)',opacity:'1' },
+          '100%': { transform: 'rotateZ(45deg)',opacity:'1' },
         }
     },
 
