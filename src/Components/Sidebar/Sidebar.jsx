@@ -10,7 +10,7 @@ const  linkClasses = 'flex items-center gap-2 font-light px-3 py-2 hover:bg-neut
 
 export default function Sidebar() {
   return (
-    <div className=' bg-neutral-900 w-60 p-3 flex flex-col text-white '>
+    <div className=' bg-neutral-900 w-60 p-3 flex flex-col text-white shrink-0'>
         
         <div className='flex items-center gap-2 px-1 py-3'>
         <HiDocumentReport 
@@ -40,7 +40,7 @@ export default function Sidebar() {
                 {/* bu dashboard dan logout qiladi  */}
                 <Link to='/auth-login'
                 onClick={()=>{AuthService.logout()}}>
-                    Logout
+                    Chiqish.
                 </Link>
             </div>
         </div>

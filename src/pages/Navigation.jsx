@@ -16,27 +16,27 @@ export const DASHBOARD_SIDEBAR_LINKS =[
     },
     {
         key:'users',
-        label:'Users',
+        label:'O`quvchilar',
         path:'/users',
         icon:<FiUsers />
     },
-    {
-        key:'table',
-        label:'Table',
-        path:'/table',
-        icon:<BsTable />
-    },
+    // {
+    //     key:'table',
+    //     label:'Table',
+    //     path:'/table',
+    //     icon:<BsTable />
+    // },
 ]
 export const DASHBOARD_SIDEBAR_BOTTOM_LINKS = [
-    {
-        key:'settings',
-        label:'Settings',
-        path:'/settings',
-        icon:<HiOutlineCog />
-    },
+    // {
+    //     key:'settings',
+    //     label:'Settings',
+    //     path:'/settings',
+    //     icon:<HiOutlineCog />
+    // },
     {
         key:'support',
-        label:'Help & Support',
+        label:'Qo’llab quvvatlash',
         path:'/support',
         icon:<HiOutlineQuestionMarkCircle />
     },
